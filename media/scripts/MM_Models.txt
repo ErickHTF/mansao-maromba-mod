@@ -1,0 +1,50 @@
+module Base
+{
+    imports{
+        Base
+    }
+
+    model MMGinGoBells_Ground
+        {
+            mesh = WorldItems/Bottle,
+            texture = WorldItems/ModelGinGoBells,
+            scale = 1.0,
+            {
+                offset = 0.0 0.0 0.0,
+                rotate = 0.0 0.0 0.0,
+            }
+        }
+
+    model MMWhiskey_Ground
+        {
+            mesh = WorldItems/Bottle,
+            texture = WorldItems/ModelWhiskey,
+            scale = 1.0,
+            {
+                offset = 0.0 0.0 0.0,
+                rotate = 0.0 0.0 0.0,
+            }
+        }
+
+    model MMWatermelon_Ground
+        {
+            mesh = WorldItems/Bottle,
+            texture = WorldItems/ModelWatermelon,
+            scale = 1.0,
+            {
+                offset = 0.0 0.0 0.0,
+                rotate = 0.0 0.0 0.0,
+            }
+        }
+
+    model MMVodka_Ground
+        {
+            mesh = WorldItems/Bottle,
+            texture = WorldItems/ModelVodka,
+            scale = 1.0,
+            {
+                offset = 0.0 0.0 0.0,
+                rotate = 0.0 0.0 0.0,
+            }
+        }
+}

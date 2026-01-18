@@ -1,0 +1,96 @@
+module Base
+{
+    imports{
+        Base
+    }
+
+    item GinGoBells_Energetic_Flavor
+    {
+        Category = Food,
+        ItemType = base:normal,
+        Weight = 0.1,
+        Icon = MM_GinGoBells,
+        Packaged = true,
+        CustomContextMenu = Drink,
+        EatType = Bourbon,
+        WorldStaticModel = MMGinGoBells_Ground,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1.0,
+            CustomDrinkSound = DrinkingFromBottlePlastic,
+            Fluids
+            {
+                fluid = GinGoBellsEnergeticFlavor:1.0,
+            }
+        }
+    }
+
+    item Whiskey_Energetic_Flavor
+    {
+        Category = Food,
+        ItemType = base:normal,
+        Weight = 0.1,
+        Icon = MM_Whiskey,
+        Packaged = true,
+        CustomContextMenu = Drink,
+        EatType = Bourbon,
+        WorldStaticModel = MMWhiskey_Ground,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1.0,
+            CustomDrinkSound = DrinkingFromBottlePlastic,
+            Fluids
+            {
+                fluid = WhiskeyEnergeticFlavor:1.0,
+            }
+        }
+    }
+
+    item Watermelon_Energetic_Flavor
+    {
+        Category = Food,
+        ItemType = base:normal,
+        Weight = 0.1,
+        Icon = MM_Watermelon,
+        Packaged = true,
+        CustomContextMenu = Drink,
+        EatType = Bourbon,
+        WorldStaticModel = MMWatermelon_Ground,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1.0,
+            CustomDrinkSound = DrinkingFromBottlePlastic,
+            Fluids
+            {
+                fluid = WatermelonEnergeticFlavor:1.0,
+            }
+        }
+    }
+
+    item Vodka_Energetic_Flavor
+    {
+        Category = Food,
+        ItemType = base:normal,
+        Weight = 0.1,
+        Icon = MM_Vodka,
+        Packaged = true,
+        CustomContextMenu = Drink,
+        EatType = Bourbon,
+        WorldStaticModel = MMVodka_Ground,
+        component FluidContainer
+        {
+            ContainerName = Bottle,
+            Capacity = 1.0,
+            CustomDrinkSound = DrinkingFromBottlePlastic,
+            Fluids
+            {
+                fluid = VodkaEnergeticFlavor:1.0,
+            }
+        }
+    }
+
+
+}

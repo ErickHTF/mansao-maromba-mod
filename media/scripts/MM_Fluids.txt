@@ -1,0 +1,150 @@
+module Base
+{
+    imports{
+        Base
+    }
+
+    fluid GinGoBellsEnergeticFlavor
+    {
+        ColorReference = White,
+        DisplayName = GingoBells_Energetic_Flavor,
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+        Properties
+        {
+            fatigueChange = 0.0,
+            HungerChange = -20.0,
+            StressChange = 0.0,
+            ThirstChange = -20.0,
+            UnhappyChange = -10.0,
+            Calories = 2630.0,
+            Carbohydrates = 0.0,
+            Lipids = 0.0,
+            Proteins = 0.0,
+            alcohol = 0.4,
+            fluReduction = 0.0,
+            painReduction = 0.0,
+            enduranceChange = 0.0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+    
+    fluid WhiskeyEnergeticFlavor
+    {
+        ColorReference = White,
+        DisplayName = Whiskey_Energetic_Flavor,
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+        Properties
+        {
+            fatigueChange = 0.0,
+            HungerChange = -20.0,
+            StressChange = 0.0,
+            ThirstChange = -20.0,
+            UnhappyChange = -10.0,
+            Calories = 2630.0,
+            Carbohydrates = 0.0,
+            Lipids = 0.0,
+            Proteins = 0.0,
+            alcohol = 0.4,
+            fluReduction = 0.0,
+            painReduction = 0.0,
+            enduranceChange = 0.0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+
+    fluid WatermelonEnergeticFlavor
+    {
+        ColorReference = White,
+        DisplayName = Watermelon_Energetic_Flavor,
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+        Properties
+        {
+            fatigueChange = 0.0,
+            HungerChange = -20.0,
+            StressChange = 0.0,
+            ThirstChange = -20.0,
+            UnhappyChange = -10.0,
+            Calories = 2630.0,
+            Carbohydrates = 0.0,
+            Lipids = 0.0,
+            Proteins = 0.0,
+            alcohol = 0.4,
+            fluReduction = 0.0,
+            painReduction = 0.0,
+            enduranceChange = 0.0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+
+    fluid VodkaEnergeticFlavor
+    {
+        ColorReference = White,
+        DisplayName = Vodka_Energetic_Flavor,
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+        Properties
+        {
+            fatigueChange = 0.0,
+            HungerChange = -20.0,
+            StressChange = 0.0,
+            ThirstChange = -20.0,
+            UnhappyChange = -10.0,
+            Calories = 2630.0,
+            Carbohydrates = 0.0,
+            Lipids = 0.0,
+            Proteins = 0.0,
+            alcohol = 0.4,
+            fluReduction = 0.0,
+            painReduction = 0.0,
+            enduranceChange = 0.0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+}
