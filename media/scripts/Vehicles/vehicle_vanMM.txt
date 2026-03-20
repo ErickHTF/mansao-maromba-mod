@@ -27,10 +27,6 @@ module Base
         {
             texture = Vehicles/v2,
         }
-        skin
-        {
-            texture = Vehicles/vfull,
-        }
         textureMask = Vehicles/vehicle_van_mask,
         textureLights = Vehicles/vehicle_van_lights,
         textureDamage1Overlay = Vehicles/Veh_Blood_Mask,
