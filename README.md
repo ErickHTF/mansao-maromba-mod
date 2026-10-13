@@ -6,6 +6,8 @@ vans for multiplayer sessions with friends.
 **Status:** Personal modding experiment · Game runtime screenshots are not
 included in this repository.
 
+![Project Zomboid](https://img.shields.io/badge/Project%20Zomboid-Mod-8B6F47) ![Mod scripts and assets](https://img.shields.io/badge/Mod%20content-Scripts%20%26%20assets-59666C)
+
 [Install the mod](#install) · [Contents](#contents) · [Project structure](#project-structure)
 
 ## Previews
